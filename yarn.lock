@@ -1699,6 +1699,13 @@
   optionalDependencies:
     "prettier" "^1.18.2 || ^2.0.0"
 
+"@vuex-orm/core@^0.36.4":
+  "integrity" "sha512-Wkq1G+FtcEQ4LbhEZUZalhuErb2nY2nuBo2UeGVpbVKkMss5piJhw7bt5TpWecDNmIUc2BzaenDDqm08AAe7Hw=="
+  "resolved" "https://registry.npmjs.org/@vuex-orm/core/-/core-0.36.4.tgz"
+  "version" "0.36.4"
+  dependencies:
+    "normalizr" "^3.6.0"
+
 "@webassemblyjs/ast@1.9.0":
   "integrity" "sha512-C6wW5L+b7ogSDVqymbkkvuW9kruN//YisMED04xzeBBqjHa2FYnmvOlS6Xj68xWQRgWvI9cIglsjFowH/RJyEA=="
   "resolved" "https://registry.npmjs.org/@webassemblyjs/ast/-/ast-1.9.0.tgz"
@@ -7053,6 +7060,11 @@
     "query-string" "^4.1.0"
     "sort-keys" "^1.0.0"
 
+"normalizr@^3.6.0":
+  "integrity" "sha512-8iEmqXmPtll8PwbEFrbPoDxVw7MKnNvt3PZzR2Xvq9nggEEOgBlNICPXYzyZ4w4AkHUzCU998mdatER3n2VaMA=="
+  "resolved" "https://registry.npmjs.org/normalizr/-/normalizr-3.6.1.tgz"
+  "version" "3.6.1"
+
 "npm-bundled@^1.0.1":
   "integrity" "sha512-x5DHup0SuyQcmL3s7Rx/YQ8sbw/Hzg0rj48eN0dV7hf5cmQq5PXIeioroH3raV1QC1yh3uTYuMThvEQF3iKgGQ=="
   "resolved" "https://registry.npmjs.org/npm-bundled/-/npm-bundled-1.1.2.tgz"
@@ -10523,7 +10535,7 @@
   "resolved" "https://registry.npmjs.org/vuetify/-/vuetify-2.6.1.tgz"
   "version" "2.6.1"
 
-"vuex@^3.6.2":
+"vuex@^3.6.2", "vuex@>=3.1.0":
   "integrity" "sha512-ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw=="
   "resolved" "https://registry.npmjs.org/vuex/-/vuex-3.6.2.tgz"
   "version" "3.6.2"
