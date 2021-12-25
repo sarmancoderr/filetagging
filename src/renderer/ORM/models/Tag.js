@@ -1,14 +1,14 @@
 import { Model } from '@vuex-orm/core'
+import FileTag from './FileTag'
 
 export default class Tag extends Model {
     static entity = 'tags'
 
-    static primaryKey = 'tag_id'
-
     static fields () {
         return {
-            tag_id: this.uid(),
-            name: this.string()
+            id: this.attr(null),
+            name: this.string(),
+            files: this.belongsToMany(File, FileTag, 'tag_id', 'file_id')
         }
     }
 }
